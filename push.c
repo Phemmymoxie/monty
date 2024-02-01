@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- *push_opc - function to add node to stack
+ *push_opcode - function to add node to stack
  *@head: head of the stack
  *@num: line number
  */
@@ -42,7 +42,7 @@ void push_opcode(stack_t **head, unsigned int num)
 		add_queue(head, n);
 }
 /**
- * pall_opc - prints the stack
+ * pall_opcode - prints the stack
  * @head: stack head
  * @num: line
  */
@@ -62,7 +62,7 @@ void pall_opcode(stack_t **head, unsigned int num)
 	}
 }
 /**
- * nop_opc - nop opcode
+ * nop_opcode - nop opcode
  * @head: stack head
  * @num: line_number
  */
@@ -73,7 +73,7 @@ void nop_opcode(stack_t **head, unsigned int num)
 	(void) head;
 }
 /**
- * sub_opc - sub opcode
+ * sub_opcode - sub opcode
  * @head: stack head
  * @num: line
  */
